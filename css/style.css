@@ -22,7 +22,7 @@ li {
 
 body {
     font-family: UniNeue, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 header {
@@ -107,7 +107,7 @@ header {
     background: #0D47A1;
     color: #fff;
     align-items: center;
-    font-size: 26px;
+    font-size: 20px;
     flex-basis: 30%;
 }
 

@@ -25,10 +25,6 @@ body {
     font-size: 16px;
 }
 
-header {
-    width: 100%;
-}
-
 .shi-main-row {
     display: flex;
     height: 160px;
@@ -112,6 +108,7 @@ header {
 }
 
 .shi-second-row__arrow {
+    margin-left: 5px;
     width: 15px;
     cursor: pointer;
 }
@@ -150,6 +147,7 @@ header {
     background-size: cover;
     width: 20px;
     height: 20px;
+    margin-left: 5px;
 }
 
 .shi-menu-row__icon {}
@@ -171,7 +169,9 @@ header {
 
 .shi-login-area__icon {}
 
-.shi-login-area__text {}
+.shi-login-area__text {
+    margin: 0 10px;
+}
 
 .shi-menu-row__icon-area {}
 
@@ -180,7 +180,7 @@ header {
 }
 
 .shi-icon-area__favorit {
-    margin-right: 43px;
+    margin-right: 20px;
     position: relative;
     width: 45px;
     height: 45px;
@@ -215,4 +215,26 @@ header {
     position: relative;
     width: 45px;
     height: 45px;
+}
+
+.shi-baner-row {
+    margin-top: 60px;
+}
+
+.shi-advantages-list {
+    display: flex;
+    gap: 15px;
+}
+
+.shi-advantages-item {
+    flex: 1 1 25%;
+}
+
+.shi-advantages-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.shi-advantages-text {
+    text-transform: uppercase;
 }

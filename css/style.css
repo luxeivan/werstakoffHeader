@@ -37,6 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-basis: 20%;
+    padding: 10px;
 }
 
 .shi-main-row__header {
@@ -232,7 +233,7 @@ body {
 
 .shi-advantages-img {
     width: 100%;
-    height: 200px;
+    height: 80%;
     object-fit: cover;
 }
 

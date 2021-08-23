@@ -240,7 +240,7 @@ body {
 .shi-advantages-text {
     text-transform: uppercase;
 }
-@media(max-width: 1300px){
+@media(max-width: 1366px){
     body{
         font-size:14px;
     }
